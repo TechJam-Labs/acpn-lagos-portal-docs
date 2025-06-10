@@ -1,0 +1,39 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+variables:
+  title: "ACPN Lagos Portal Documentation"
+  description: "Comprehensive documentation for the Association of Community Pharmacists of Nigeria (Lagos Chapter) Portal"
+  version: "2.0"
+  copyright: "Copyright © 2024 TechJamLabs"
+  contact_phone_ng: "+234 201 330 9089"
+  contact_phone_us: "+1 206 710 0170"
+  website: "www.techjamlabs.com"
+  authors: "Ben Adenle, Odinaka Solomon, Dare Oloruntoba"
+
+plugins:
+  - search
+  - sitemap
+  - mermaid
+  - code
+  - anchor-navigation-ex
+  - page-toc-button
+  - back-to-top-button
+  - copy-code-button
+  - github
+  - gtm
+
+github:
+  url: "https://github.com/techjamlabs/acpn-portal"
+
+sitemap:
+  hostname: "https://docs.acpnlagos.org"
+
+mermaid:
+  theme: "default"
+
+gtm:
+  token: "GTM-XXXXXXX" 
